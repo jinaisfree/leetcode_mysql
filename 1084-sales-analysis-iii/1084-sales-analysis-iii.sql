@@ -1,16 +1,19 @@
 # Write your MySQL query statement below
--- 판매기록이 없는 상품도 포함됨
--- select
---     p.product_id
---     , p.product_name
--- from Product p
--- where not exists (
---     select
---         1
---     from Sales s
---     where s.product_id = p.product_id
---     and sale_date not between '2019-01-01' and '2019-03-31'
+-- SELECT p.product_id, p.product_name
+-- FROM Product p
+-- WHERE EXISTS (
+--     SELECT 1
+--     FROM Sales s
+--     WHERE s.product_id = p.product_id
+--       AND s.sale_date >= '2019-01-01'
+--       AND s.sale_date <  '2019-04-01'
 -- )
+-- AND NOT EXISTS (
+--     SELECT 1
+--     FROM Sales s
+--     WHERE s.product_id = p.product_id
+--       AND (s.sale_date < '2019-01-01' OR s.sale_date >= '2019-04-01')
+-- );
 
 SELECT
     s.product_id
