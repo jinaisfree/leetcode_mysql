@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+-- 판매기록이 없는 상품도 포함됨
 -- select
 --     p.product_id
 --     , p.product_name
@@ -20,4 +21,4 @@ on s.product_id = p.product_id
 GROUP BY product_id
 HAVING 
     MIN(sale_date) >= '2019-01-01'
-    AND MAX(sale_date) < '2019-03-31';
+    AND MAX(sale_date) <= '2019-03-31';
