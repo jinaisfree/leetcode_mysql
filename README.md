@@ -29,4 +29,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1084-sales-analysis-iii](https://github.com/zinaisnice/leetcode_mysql/tree/master/1084-sales-analysis-iii) |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/zinaisnice/leetcode_mysql/tree/master/1141-user-activity-for-the-past-30-days-i) |
 | [1148-article-views-i](https://github.com/zinaisnice/leetcode_mysql/tree/master/1148-article-views-i) |
+| [1179-reformat-department-table](https://github.com/zinaisnice/leetcode_mysql/tree/master/1179-reformat-department-table) |
 <!---LeetCode Topics End-->
