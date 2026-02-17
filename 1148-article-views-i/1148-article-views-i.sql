@@ -13,3 +13,9 @@ and v1.article_id = v2.article_id
 --     and v1.article_id = v2.article_id
 -- )
 order by id
+
+-- select
+--     distinct v1.author_id as id
+-- from Views
+-- where author_id = viewer_id
+-- order by id
