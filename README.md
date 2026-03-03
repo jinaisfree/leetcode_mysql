@@ -45,4 +45,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1729-find-followers-count](https://github.com/zinaisnice/leetcode_mysql/tree/master/1729-find-followers-count) |
 | [1757-recyclable-and-low-fat-products](https://github.com/zinaisnice/leetcode_mysql/tree/master/1757-recyclable-and-low-fat-products) |
 | [1789-primary-department-for-each-employee](https://github.com/zinaisnice/leetcode_mysql/tree/master/1789-primary-department-for-each-employee) |
+| [1873-calculate-special-bonus](https://github.com/zinaisnice/leetcode_mysql/tree/master/1873-calculate-special-bonus) |
 <!---LeetCode Topics End-->
